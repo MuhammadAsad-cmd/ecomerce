@@ -1,0 +1,87 @@
+.orderUpdatePg{
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+.orderUpdatePg >div:last-child{
+width: 100%;
+}
+.pTop-50{
+padding-top: 50px;
+}
+.orderUpdateMain{
+    display: flex;
+    width: 100%;
+ 
+}
+.adminOrderUpdate{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+.adminOrderDetail{
+    width: 60%;
+}
+.adminOrderDetail >.shipping_cartInfo{
+    width: 100%;
+}
+.adminOrderUpdate form{
+    width: 290px;
+    /* padding: 30px 40px 50px 40px ; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.adminOrderUpdate form >p{
+    text-align: center;
+    font-size: 20px;
+}
+.adminOrderUpdate form >div{
+    height: 50px;
+    width: 90%;
+    /* background: red; */
+    border: 1px solid black;
+    margin-top: 15px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 0.2rem;
+}
+.adminOrderUpdate form >div select{
+    height: 100%;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+  
+border: none;
+   width: 100%;
+   outline: none;
+   font-size: 18px;
+}
+.adminOrderUpdate form >div svg{
+    font-size: 25px;
+    padding: 13px;
+}
+.disabledBtn{
+    opacity: 0.5;
+   
+}
+.disabledBtn:active{
+    transform: scale(1);
+}
+@media screen and (max-width:850px){
+    .orderUpdateMain{
+        flex-direction: column;
+    }
+    .orderUpdateMain >div{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:520px){
+.orderUpdatePg{
+    flex-direction: column;
+}
+}

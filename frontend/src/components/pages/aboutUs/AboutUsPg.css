@@ -1,0 +1,112 @@
+.AboutUsPg{
+    min-height: 600px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    background: ghostwhite;
+    padding-bottom: 40px;
+
+}
+.c_ord{
+    color: orangered;
+}
+.AboutUsMain{
+    width: 80%;
+    margin-top: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+    box-shadow: -3px 0px 10px gray;
+    position: relative;
+    overflow: hidden;
+}
+.AboutUsMain::before{
+    content: '';
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -30px;
+    right: -30px;
+    background-color: rgb(219, 74, 21);
+    border-radius: 100%;
+}
+.AboutUsMain::after{
+    content: '';
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    bottom: -40px;
+    left: -30px;
+    background-color: rebeccapurple;
+   
+    border-radius: 100%;
+}
+.aboutSections{
+    display: flex;
+    width: 100%;
+}
+.aboutsec1{
+    width: 50%;
+
+       /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-right: 1px solid gainsboro;
+}
+.aboutsec1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+}
+summary{
+text-align: center;
+padding-bottom: 0 20px 30px 20px;
+}
+
+
+.aboutsec2{
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+.aboutsec2 a{
+    margin:  6px 0; 
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:780px) {
+    .AboutUsMain{
+        width: 100% !important;
+        background-color: white !important;
+    }   
+}
+@media screen and (max-width:450px) {
+    .aboutSections{
+        flex-direction: column;
+    }
+    .aboutsec1, .aboutsec2{
+        width: 100% !important;
+       justify-content: center;
+    }
+    .aboutsec2{
+        margin-top: 40px;
+    }
+    .AboutUsMain::after{
+        bottom: -60px;
+        left: -60px;
+    } .AboutUsMain::before{
+top: -60px;
+right: -60px;
+    }
+}

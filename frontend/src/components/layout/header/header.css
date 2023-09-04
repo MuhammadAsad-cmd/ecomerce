@@ -1,0 +1,24 @@
+.SpeedDialAction{
+    background-color: blueviolet;
+}
+.userPicSec{
+    position:'absolute';
+    right:'12px';
+    top:'20px';
+
+}
+.userPicSec img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+/* overlay navbar */
+
+
+ @media screen and (max-width:800px){
+    .logoReactNavbar{
+        width: 100% !important;
+    }
+    
+} 

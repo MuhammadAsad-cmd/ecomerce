@@ -1,0 +1,159 @@
+.shipping_confirm_page{
+    width: 100%;
+}
+.shipping_detail_form_container{
+    width: 100%;
+    min-height: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 50px;
+}
+.shipping_detail_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shipping_detail_form header{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    padding: 0 35px 10px 35px;
+margin-bottom: 30px;
+
+}
+.shipping_detail_form_field{
+    width: 340px;
+}
+.shipping_detail_form_field >div{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+}
+.shipping_detail_form_field >div>input , .orderPayment >div >div, .shipping_detail_form_field >div>select{
+    height: 50px;
+    width: 275px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+}
+.shipping_detail_form_icon {
+    font-size: 25px;
+    padding: 0 12px;
+    color: rgb(232, 69, 36);
+}
+.btn_box{
+    border: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn_box button,.paymentBtn button{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(232, 69, 36);
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 0.3rem;
+}
+
+/* stepper */
+.stepper_icon{
+    font-size: 30px;
+}
+.MuiStep-completed {
+    color: orangered;
+}
+
+
+/* confirm order page */
+.shipping_confirm_page{
+    width: 100%;
+    min-height: 640px;
+    background-color: white;
+    padding-top: 50px;
+}
+.shipping_confirm_container{
+    min-height: 400px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    
+}
+.shipping_cartInfo{
+    width: 60%;
+    min-height: 400px;
+    padding: 0 20px;
+    /* background-color: green; */
+    border-right: 1.5px solid black;
+    box-sizing: border-box;
+}
+.shipping_cartInfo .shipping_cartInfo_box{
+padding-left: 15px;
+}
+.confirm_order_form{
+    width: 40%;
+    min-height: 400px;
+/* background-color: wheat; */
+display: flex;
+justify-content: center;
+}
+.shipping_cartInfo_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.shipping_cartInfo_item img{
+
+ width: 50px;
+ height: 70px;
+ margin-right: 8px;
+
+}
+.confirm_order_form h3{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.confirm_order_form div >div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.confirm_order_form_total_p{
+    border-top: 1.5px solid black;
+}
+.confirm_order_form_box{
+    width: 90%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:800px) {
+    .shipping_confirm_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .shipping_confirm_container .shipping_cartInfo{
+        border: 0;
+    }
+    .shipping_confirm_container >div{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px) and (min-width:400px ) {
+    .paymentBtn{
+ width: 300px;
+ margin: auto;
+    }
+}

@@ -1,0 +1,106 @@
+.ProfilePgContainer{
+    width: 100%;
+    min-height: 600px;
+    padding-top: 50px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ProfilePgContainer>div{
+    height: 500px;
+    width: 450px;
+    
+}
+.profileSec1{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.profileSec2{
+    /* background-color: rgb(0, 217, 255); */
+}
+.profileSec1 >img{
+height: 260px;
+width: 260px;
+border-radius: 100%;
+align-self: center;
+
+}
+.profileSec1 >p{
+    font-size: 26px;
+    padding-left: 40px;
+    margin-bottom: 0;
+
+}
+.profileSec1 a{
+display: flex;
+justify-content: center;
+text-decoration: none;
+}
+.profileSec1 button{
+    padding: 15px 88px;
+    align-self: center;
+    background-color: #c30707;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 0.2rem;
+    
+}
+.profileSec1 button:active{
+    transform: scale(0.96);
+}
+.profileSec2 >div{
+    margin: 30px 0 50px 0;
+}
+.profileSec2 >div >h4,.profileSec2 >div >p{
+  margin: 0;
+  padding: 2px 0;
+}
+.profileSec2 >div >p{
+    color: rgb(65, 63, 63);
+}
+.profileSec2Btn{
+    display: flex;
+    justify-content: center;
+}
+.profileSec2Btn button{
+height: 40px;
+width: 350px;
+background-color: rgb(52, 41, 41);
+color: white;
+font-size: 18px;
+border: none;
+border-radius: 0.2rem;
+
+}
+@media screen and (max-width:500px){
+    .profileSec1 >img{
+        height: 230px;
+        width: 230px;
+      
+        
+        }
+    .ProfilePgContainer>div{
+        
+        width: 350px;
+        
+    }
+
+}
+@media screen and (max-width:400px){
+    .profileSec1 >img{
+        height: 200px;
+        width: 200px;
+      
+        
+        }
+    .ProfilePgContainer>div{
+        
+        width: 280px;
+        
+    }
+
+}

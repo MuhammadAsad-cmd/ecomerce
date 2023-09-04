@@ -1,0 +1,28 @@
+.reviewCard{
+    min-height: 250px;
+    width: 450px;
+    background-color: white;
+    margin: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(190, 179, 179);
+}
+.reviewCard .imgSec{
+    height: 30px;
+    width: 90px;
+    border-radius: 100%;
+    position: relative;
+}
+.reviewCard .imgSec img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.reviewCard h4,.reviewCard p{
+    margin: 5px 0;
+    padding: 8px 20px;
+   text-align: center;
+}

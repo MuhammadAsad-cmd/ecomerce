@@ -1,0 +1,24 @@
+.order_succ_container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+/* a reffer to Link */
+.order_succ_container a{
+padding: 13px 23px;
+color: #fff;
+background-color: #000;
+text-decoration: none;
+font-weight: 500;
+border-radius: 0.3rem;
+
+}
+.order_succ_container .checkIcon{
+font-size: 80px;
+
+color: orangered;
+}

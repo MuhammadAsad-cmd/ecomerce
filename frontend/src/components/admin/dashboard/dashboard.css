@@ -1,0 +1,102 @@
+.dashboardPg{
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+.dashboardMain{
+    background-color: white;
+    padding-top: 50px;
+    width: 100%;
+
+
+}
+.dashboardMain >h2{
+    text-align: center;
+}
+.dashboardMain .ds_price_sec{
+    background: #1a51a5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 500;
+}
+.dashboardMain .ds_price_sec p{
+    margin: 8px 0;
+}
+.dashboardMain .ds_circle_sec{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.dashboardMain .ds_circle_sec >div{
+    flex-direction: column;
+    height: 110px;
+    width: 110px;
+    background: #d3984c;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+}
+.dashboardMain .ds_circle_sec >div:first-child{
+    background-color: rgba(187, 24, 21, 0.789);
+    color: white;
+}
+.dashboardMain .ds_circle_sec >div:last-child{
+    background-color: rgba(78, 69, 69, 0.863);
+    color: white;
+}
+.dashboardMain .ds_circle_sec >div >p{
+    margin: 5px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+/* line cart */
+.ds_Linechart,.ds_Doughnut{
+    width: 80%;
+    margin: 30px auto;
+    height: auto;
+
+    
+}
+.ds_Doughnut{
+    width: 40%;
+}
+
+@media screen and (max-width:800px){
+    .ds_Doughnut{
+        width: 60%;
+    }  
+}
+
+@media screen and (max-width:580px){
+    .dashboardPg{
+        flex-direction: column;
+    }
+    .dashboardPg >div, .dashboardPg >div .sidebar{
+        width: 100% !important;
+    }
+    .ds_Doughnut{
+        width: 70%;
+    } 
+}
+@media screen and (max-width:400px){
+    .ds_Linechart{
+        width: 96%;
+        margin: 30px auto;
+        height: auto !important;
+    }
+    .dashboardMain .ds_circle_sec >div{
+        height: 100px;
+        width: 100px;
+        margin: 0 4px;
+    }
+
+}

@@ -1,0 +1,97 @@
+/* this css also use in AdminUpdateUser page */
+.ad_create_product_pg{
+ 
+  
+width: 100%;
+display: flex;
+box-sizing: border-box;
+}
+.adCreateProformSec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.adCreateProformSec form{
+    margin-top: 50px;
+width: 380px;
+padding: 30px 40px 50px 40px ;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 30px;
+
+}
+.adCreateProformSec form >h2{
+    text-align: center;
+
+}
+/*  */
+.adCreateProformSec form >div{
+    height: 50px;
+    width: 90%;
+    /* background: red; */
+    border: 1px solid black;
+    margin-top: 15px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 0.2rem;
+}
+:is(.adCreateProformSec form >div ) input,textarea,select,input[type='file']{
+    height: 100%;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+  
+border: none;
+   width: 100%;
+   outline: none;
+   font-size: 18px;
+}
+.adCreateProformSec form textarea{
+    resize: none;
+    padding-top: 13px;
+}
+.adCreateProformSec form >div  input[type='file']::file-selector-button {
+width: 100%;
+height: 100%;
+}
+.adCreateProformSec svg{
+    font-size: 25px;
+    padding: 13px;
+}
+.previewPic{
+  height: 60px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.previewPic img{
+    height: 100%;
+    margin: 0 5px;
+}
+.ad_create_btn{
+    background-color: orangered;
+    width: 100% ;
+    height: 50px ;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    outline: 0;
+    border: none;
+    border-radius: 0.2rem;
+}
+@media screen and (max-width:667px){
+    .adCreateProformSec form{
+        padding: 40px 10px;
+        width: 340px;
+    }
+    
+}
+@media screen and (max-width:550px){
+    .adCreateProformSec form{
+        margin-top: 20px;
+    }
+    .ad_create_product_pg{
+        padding-top: 0;
+        flex-direction: column;
+    }
+}

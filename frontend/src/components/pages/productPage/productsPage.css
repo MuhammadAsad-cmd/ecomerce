@@ -1,0 +1,107 @@
+.productsPageContainer {
+    min-height: 400px;
+    width: 100%;
+    /* background-color: red; */
+    padding-top: 100px;
+}
+
+.productsPageContainer>h1 {
+    text-decoration: underline 1px solid black;
+    text-underline-offset: 10px;
+    text-align: center;
+}
+
+.paginationContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.paginationUl {
+    display: flex;
+
+}
+
+.paginationUl>li {
+    padding: 10px 15px;
+    list-style: none;
+    border: 1px solid rgb(149, 146, 146);
+    box-sizing: content-box;
+}
+
+.paginationUl>li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.activePage {
+    background-color: rgb(228, 57, 27);
+}
+
+.activePageLink {
+    color: white !important;
+
+}
+
+.firstClass {
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.lastClass {
+    border-radius: 0 0.4rem 0.4rem 0;
+
+}
+
+.filterAndProductSec {
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+
+.filterSec {
+    width: 350px;
+    height: 550px;
+    margin: 50px 15px 0 30px;
+    padding: 0 10px 0 35px;
+    background-color: white;
+}
+
+.sliderSec {
+    margin-top: 20px;
+}
+
+.catagorySec {
+    margin-top: 20px;
+}
+
+.catagorySec span {
+    padding: 6px 0;
+}
+
+.catagorySec ul {
+    list-style: none;
+}
+
+.catagorySec ul>li {
+    padding: 6px 0;
+    cursor: pointer;
+}
+
+.activeCatagory {
+    color: rgb(228, 57, 27);
+}
+
+/* paading class */
+.p10 {
+    display: inline-block;
+    padding: 8px 0 20px 0;
+}
+
+@media screen and (max-width:550px) {
+    .filterAndProductSec {
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+}

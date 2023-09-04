@@ -1,0 +1,49 @@
+.myOrdersPage{
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    background-color: white;
+    /* margin-bottom: 20px; */
+   
+    
+    display: flex;
+    flex-direction: column;
+}
+/* color if order completed */
+.orderSuccess{
+    color: green;
+    font-weight: 500;
+}
+/* color of order in processing */
+.orderProcessing{
+    color: red;
+    font-weight: 500;
+}
+.orderListTable{
+    position: relative;
+}
+.MuiDataGrid-row  a svg {
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+  }
+  
+  .MuiDataGrid-row  a svg:hover {
+    color: tomato;
+  }
+.MuiDataGrid-columnHeader {
+    background-color: tomato;
+    padding: 1vmax !important;
+  }
+  .MuiDataGrid-columnHeader div{
+    color: white;
+  }
+  .MuiDataGrid-columnHeaderTitle{
+    color: white;
+    font-weight: 700 !important;
+  }
+@media screen and (max-width:1114px) {
+    .myOrdersPage{
+        width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+.ContactUsPg{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.ContactUsMain{
+    margin-top: 50px;
+    width: 350px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+
+}
+.ContactUsMain >div{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.ContactUsMain >div p, .ContactUsMain >div a{
+    margin: 0;
+    font-size: 20px;
+}
+.ContactUsMain >div a{
+    text-decoration: none;
+    color: black;
+}
+.ContactUsMain >div svg{
+    font-size: 25px;
+    padding: 10px;
+    color: orangered;
+}

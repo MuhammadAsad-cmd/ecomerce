@@ -1,0 +1,37 @@
+.searchContainer{
+    height: 300px;
+    width: 100%;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.searchBox{
+    height: 40px;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+}
+.searchBox input{
+    height: 100%;
+    max-width: 300px;
+    padding: 0 10px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 20px;
+    z-index: 1;
+
+
+}
+.searchBox> button{
+     max-width: 130px;
+     height: 100%;
+     border: none;
+     color: white;
+     background-color:  rgb(218, 29, 29);;
+     font-size: 18px;
+     padding: 0 13px ;
+
+}
+.searchBox> button:hover{
+    background-color: rgb(232, 61, 34);
+}

@@ -1,0 +1,45 @@
+/* this css is also being used in AdminReviews page */
+
+.AdminOrderpage{
+    display: flex;
+    background-color: white;
+    width: 100% !important;
+   
+}
+.AdminOrderpageMain{
+   /* width: 100%; */
+   min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.admin_action_icon{
+    display: flex;
+
+}
+.admin_action_icon >a, .admin_action_icon >span{
+padding: 8px ;
+
+
+}
+
+.admin_action_icon >a:hover ,.ed_deleteIcon:hover{
+    cursor: pointer;
+    color:rgb(245, 97, 28) ;
+}
+.MuiDataGrid-columnHeader {
+    background-color: tomato;
+    padding: 1vmax !important;
+  }
+  .MuiDataGrid-columnHeader div{
+    color: white;
+  }
+  .MuiDataGrid-columnHeaderTitle{
+    color: white;
+    font-weight: 700 !important;
+  }
+  @media screen and (max-width:700px){
+    .AdminOrderpage{
+        flex-direction: column;
+    }
+    
+  }

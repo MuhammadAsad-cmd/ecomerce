@@ -1,0 +1,23 @@
+.upDateProfileContainer{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upDateProfileContainer >.signupSec{
+  padding: 45px 60px;
+    background: white;
+
+
+}
+.profileSec_header{
+    font-size: 20px;
+    margin: 6px 0;
+    font-weight: 500;
+
+}
+
+
+
+
