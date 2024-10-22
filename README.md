@@ -64,31 +64,36 @@ This project is a fully functional e-commerce website built using the MERN stack
  ```bash
 cd backend
 npm install
+ ```
 
 # For frontend
 ```bash
 cd ../frontend
 npm install
+ ```
 
 3. **Environment variables: Create a .env file in the backend directory with the following content:**
 ```bash
    PORT=5000
 MONGO_URI=your-mongo-uri
 JWT_SECRET=your-jwt-secret
+```
 
 4. **Run the server: **
 ```bash
  cd backend
 npm run dev
+```
 
 5. **Run the client:**
 ```bash
    cd ../frontend
 npm start
+```
 
 6. **Access the application:**
 ```bash
    Frontend: Open http://localhost:3000 in your browser.
-```bash
 Backend API: Accessible at http://localhost:5000.
+```
 
